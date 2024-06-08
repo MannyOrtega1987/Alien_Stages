@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    font-family: "Trocchi", "Kumbh Sans", serif;
+}
+
+body {
+    background: linear-gradient(90deg, black, #223237);
+}
