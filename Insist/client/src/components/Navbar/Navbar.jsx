@@ -9,7 +9,7 @@ import { Navigate } from "react-router-dom";
 import Sidebar from "../Sidebar/Sidebar";
 
 // importing login page, for when user signed out, or new user enters:
-import Login from "../../pages/Login/Login";
+import Login from "../../pages/Welcome/Welcome";
 
 // Navbar css:
 import "./Navbar.css";
@@ -48,7 +48,7 @@ const Navbar = ({ children }) => {
           <div className="navContainer">
             <img src={Logo} alt="Insist Logo" />
           </div>
-          <Navigate to="/login" />
+          <Navigate to="/welcome" />
           <Login />
         </nav>
       </SignedOut>

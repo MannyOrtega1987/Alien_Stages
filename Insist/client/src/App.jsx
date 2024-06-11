@@ -15,7 +15,7 @@ import Navbar from "./components/Navbar/Navbar";
 // importing pages/routes:
 import Bubble from "./pages/Bubble/Bubble";
 import Home from "./pages/Home/Home";
-import Login from "./pages/Login/Login";
+import Welcome from "./pages/Welcome/Welcome";
 import Lost from "./pages/Lost/Lost";
 import Profile from "./pages/Profile/Profile";
 import Settings from "./pages/Settings/Settings";
@@ -26,7 +26,6 @@ import TopicsID from "./pages/TopicsID/TopicsID";
 import "./App.css";
 
 function App() {
-
   return (
     <>
       <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
@@ -36,7 +35,7 @@ function App() {
               <Route path="*" element={<Lost />} />
               <Route path="/" element={<Home />} />
               <Route path="/bubble" element={<Bubble />} />
-              <Route path="/login" element={<Login />} />
+              <Route path="/welcome" element={<Welcome />} />
               <Route path="/profile" element={<Profile />} />
               <Route path="/settings" element={<Settings />} />
               <Route path="/topics" element={<Topics />} />
@@ -47,6 +46,6 @@ function App() {
       </ClerkProvider>
     </>
   );
-};
+}
 
 export default App;
