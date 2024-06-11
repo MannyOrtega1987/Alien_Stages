@@ -5,19 +5,23 @@
   align-items: center;
 
   #welcomeParticles {
-    height: 50vh;
+    height: 65vh;
     width: 90vw;
     z-index: -1;
     position: fixed;
     border-radius: 12px;
-    background-image: url(../../assets/Scene1.png);
+    background: url(../../assets/Scene1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
 .welcomeLangs h1 {
   margin: 0 50px;
-  display: inline-block;
-  align-items: start;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .logoContainer {

@@ -1,5 +1,5 @@
 export default {
-  fullScreen : { enable: false },
+  fullScreen: { enable: false },
   fpsLimit: 60,
   particles: {
     number: {
@@ -115,7 +115,7 @@ export default {
     enable: true,
     cover: {
       color: {
-        value: "#B089E3",
+        value: "#000",
       },
     },
   },
